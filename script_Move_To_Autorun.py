@@ -1,6 +1,6 @@
 import shutil
 import os
-#programmed by Unknown333
+#programmed by Unknown333 https://github.com/Unknown333/Script-Move-To-AutoRun
 
 def autorun():
 
@@ -20,7 +20,7 @@ def autorun():
 	os.chdir('../')
 	CURR_DIR = os.getcwd()
 											   
-	CURR_DIR = CURR_DIR + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.*" #Replace the actual * with the name of your actual file (or a different name if you want to rename it, but be careful to make sure that the name of your file is unique in the folder where you are going to put it, otherwise it will not move. ) and the extension of your file
+	CURR_DIR = CURR_DIR + "\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.*" #Replace the actual * with the name of your actual file (or a different name if you want to rename it, but be careful to make sure that the name of your file is unique in the folder where you are going to put it, otherwise it will not move. ) and the extension of your file (.py or .exe)
 	dst = CURR_DIR
 
     
